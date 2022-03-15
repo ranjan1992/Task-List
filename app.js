@@ -59,6 +59,8 @@ function removeTask(e) {
   if (e.target.parentElement.classList.contains("delete-item")) {
     if (confirm("Are you Sure ?")) {
       e.target.parentElement.parentElement.remove();
+
+      //This is added by me
     }
   }
 }
